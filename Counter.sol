@@ -3,11 +3,12 @@ pragma solidity ^0.8.7;
 
 contract Counter{
 uint public count;
-
-function inc()  external {
+//count verisine 1 ekler
+function increase()  external {
     count += 1;
 }
-function  dec() external {
+//count verisinden 1 çıkarır
+function  decrease() external {
     count -= 1;
 }
 }
